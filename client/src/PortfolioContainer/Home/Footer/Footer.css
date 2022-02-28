@@ -34,9 +34,10 @@
   margin-right: 9px;
   overflow: hidden;
   flex-direction: column;
-  margin-top: 2950px;
+  margin-top: 2340px;
   z-index: 100;
   cursor: pointer;
+  padding-bottom: 0px;
 }
 
 .btn-scroll {

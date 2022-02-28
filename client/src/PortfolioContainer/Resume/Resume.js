@@ -41,39 +41,41 @@ const Resume = (props) => {
   };
 
   const resumeBullets = [
-    { label: "Atestate Bac", logoSrc: "education.svg" },
-    { label: "Curs Programare Incepatori", logoSrc: "work-history.svg" },
+    { label: "Ajutor Bacalaureat", logoSrc: "education.svg" },
+    { label: "Curs Programare Incepatori", logoSrc: "projects.svg" },
     { label: "Website Prezentare", logoSrc: "programming-skills.svg" },
-    { label: "Application Skills", logoSrc: "programming-skills.svg" },
+    // { label: "Application Skills", logoSrc: "programming-skills.svg" },
+    // { label: "Projects", logoSrc: "projects.svg" },
+    // { label: "Interests", logoSrc: "interests.svg" },
   ];
 
-  const programmingSkillsDetails = [
-    { skill: "Python", ratingPercentage: 85 },
-    { skill: "R Languange", ratingPercentage: 65 },
-    { skill: "php", ratingPercentage: 65 },
-    { skill: "Scikit Learn", ratingPercentage: 80 },
-    { skill: "Node JS", ratingPercentage: 65 },
-    { skill: "Mongo Db", ratingPercentage: 75 },
-    { skill: "SQL Server", ratingPercentage: 90 },
-    { skill: "HTML", ratingPercentage: 60 },
-    { skill: "CSS", ratingPercentage: 65 },
-    { skill: "Django", ratingPercentage: 65 },
-    { skill: "ArcGIS Model Builder", ratingPercentage: 75 },
-    { skill: "Kafka", ratingPercentage: 65 },
-    { skill: "MySQL", ratingPercentage: 75 },
-  ];
+  // const programmingSkillsDetails = [
+  //   { skill: "Python", ratingPercentage: 85 },
+  //   { skill: "R Languange", ratingPercentage: 65 },
+  //   { skill: "php", ratingPercentage: 65 },
+  //   { skill: "Scikit Learn", ratingPercentage: 80 },
+  //   { skill: "Node JS", ratingPercentage: 65 },
+  //   { skill: "Mongo Db", ratingPercentage: 75 },
+  //   { skill: "SQL Server", ratingPercentage: 90 },
+  //   { skill: "HTML", ratingPercentage: 60 },
+  //   { skill: "CSS", ratingPercentage: 65 },
+  //   { skill: "Django", ratingPercentage: 65 },
+  //   { skill: "ArcGIS Model Builder", ratingPercentage: 75 },
+  //   { skill: "Kafka", ratingPercentage: 65 },
+  //   { skill: "MySQL", ratingPercentage: 75 },
+  // ];
 
-  const applicationSkillsDetails = [
-    { skill: "PowerBI", ratingPercentage: 80 },
-    { skill: "Talend Open Studio", ratingPercentage: 85 },
-    { skill: "ArcGIS Platform", ratingPercentage: 85 },
-    { skill: "Grafana", ratingPercentage: 75 },
-    { skill: "Azure Cloud Server", ratingPercentage: 50 },
-    { skill: "E&P - Petrel", ratingPercentage: 70 },
-    { skill: "E&P - Kingdom", ratingPercentage: 85 },
-    { skill: "E&P - Hampson-Russell", ratingPercentage: 85 },
-    { skill: "E&P - Paradigm", ratingPercentage: 75 },
-  ];
+  // const applicationSkillsDetails = [
+  //   { skill: "PowerBI", ratingPercentage: 80 },
+  //   { skill: "Talend Open Studio", ratingPercentage: 85 },
+  //   { skill: "ArcGIS Platform", ratingPercentage: 85 },
+  //   { skill: "Grafana", ratingPercentage: 75 },
+  //   { skill: "Azure Cloud Server", ratingPercentage: 50 },
+  //   { skill: "E&P - Petrel", ratingPercentage: 70 },
+  //   { skill: "E&P - Kingdom", ratingPercentage: 85 },
+  //   { skill: "E&P - Hampson-Russell", ratingPercentage: 85 },
+  //   { skill: "E&P - Paradigm", ratingPercentage: 75 },
+  // ];
 
   const projectsDetails = [
     {
@@ -104,17 +106,21 @@ const Resume = (props) => {
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
       <ResumeHeading
-        heading={"University of Leeds, United Kingdom"}
-        subHeading={"MASTER of Exploration Geophysics"}
-        fromDate={"2014"}
-        toDate={"2015"}
+        heading={"Atestate Bacalaureat si documentatie"}
+        subHeading={
+          "Te putem ajuta cu documentatia si scrierea website-ului pentru atestatele de bacalaureat, un website cu toate cele necesare, HTML, CSS, Bootstrap si JavaScript "
+        }
+        fromDate={"250"}
+        toDate={"RON"}
       />
 
       <ResumeHeading
-        heading={"Bandung Institute of Technology, Indonesia"}
-        subHeading={"BACHELOR of Physics"}
-        fromDate={"2008"}
-        toDate={"2013"}
+        heading={"Meditatii ajutor programare"}
+        subHeading={
+          "Aprofundare tehnica si ajutor in rezolvarea problemelor de programare"
+        }
+        fromDate={"50 RON"}
+        toDate={"ora"}
       />
     </div>,
 
@@ -122,31 +128,26 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Saka Energi Indonesia"}
-          subHeading={"E&P Data Specialist"}
-          fromDate={"2019"}
-          toDate={"Present"}
+          heading={"Curs de programare pentru stapanirea bazelor programarii"}
+          subHeading={"Curs Programare"}
+          fromDate={"3 luni"}
+          toDate={" 1500 RON"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as E&P Data Specialist handling E&P technical
-            database and data integration development.
+            Acest curs de programare pentru incepatori va consta in deprinderea
+            bazelor pentru un demaraj eficient in industrie. Cursul va cuprinde
+            cat mai multa practica si doar teoria necesara pentru a intelege
+            anumite concepte ce sunt mereu cerute la interviuri.
           </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            - Developed end-to-end data management system for G&G technical data
-            using GIS Framework and Application
-          </span>
-          <br />
-          <span className="resume-description-text">
-            - Developed API and real-time monitoring for production and facility
-            data.
-          </span>
-          <br />
-          <span className="resume-description-text">
-            - Developed ETL tools to digitize multi-document format into
-            semi-automated services and database.
+            Cursul va cuprinde: Invatarea cuvintelor cheie a limbajului de
+            programare, scrierea de functii, tipurile de date ce sunt cel mai
+            des folosite, structuri de date, crearea a catorva mini proiecte,
+            programe de gestionare a versiunii, design patterns si principiile
+            SOLID ale programarii.
           </span>
           <br />
         </div>
@@ -154,68 +155,79 @@ const Resume = (props) => {
     </div>,
 
     /* PROGRAMMING SKILLS */
-    <div
-      className="resume-screen-container programming-skills-container"
-      key="programming-skills">
-      {programmingSkillsDetails.map((skill, index) => (
-        <div className="skill-parent" key={index}>
-          <div className="heading-bullet"></div>
-          <span>{skill.skill}</span>
-          <div className="skill-percentage">
-            <div
-              style={{ width: skill.ratingPercentage + "%" }}
-              className="active-percentage-bar"></div>
-          </div>
+    <div className="resume-screen-container" key="work-experience">
+      <div className="experience-container">
+        <ResumeHeading
+          heading={"Website-uri de prezentare pentru afacarea ta"}
+          subHeading={"Website Prezentare"}
+          fromDate={"Incepand de la"}
+          toDate={"2500 RON"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+            Daca vrei sa-ti cresti afacerea, si sa o faci mai vizibila in lumea
+            digitala, un website unul dintre primii pasi ce ar trebui sa ii faci
+          </span>
         </div>
-      ))}
+        <div className="experience-description">
+          <span className="resume-description-text">
+            Cursul va cuprinde: Invatarea cuvintelor cheie a limbajului de
+            programare, scrierea de functii, tipurile de date ce sunt cel mai
+            des folosite, structuri de date, crearea a catorva mini proiecte,
+            programe de gestionare a versiunii, design patterns si principiile
+            SOLID ale programarii.
+          </span>
+          <br />
+        </div>
+      </div>
     </div>,
 
     /* Application SKILLS */
-    <div
-      className="resume-screen-container application-skills-container"
-      key="application-skills">
-      {applicationSkillsDetails.map((skill, index) => (
-        <div className="skill-parent" key={index}>
-          <div className="heading-bullet"></div>
-          <span>{skill.skill}</span>
-          <div className="skill-percentage">
-            <div
-              style={{ width: skill.ratingPercentage + "%" }}
-              className="active-percentage-bar"></div>
-          </div>
-        </div>
-      ))}
-    </div>,
+    // <div
+    //   className="resume-screen-container application-skills-container"
+    //   key="application-skills">
+    //   {applicationSkillsDetails.map((skill, index) => (
+    //     <div className="skill-parent" key={index}>
+    //       <div className="heading-bullet"></div>
+    //       <span>{skill.skill}</span>
+    //       <div className="skill-percentage">
+    //         <div
+    //           style={{ width: skill.ratingPercentage + "%" }}
+    //           className="active-percentage-bar"></div>
+    //       </div>
+    //     </div>
+    //   ))}
+    // </div>,
 
     /* PROJECTS */
-    <div className="resume-screen-container" key="projects">
-      {projectsDetails.map((projectsDetails, index) => (
-        <ResumeHeading
-          key={index}
-          heading={projectsDetails.title}
-          subHeading={projectsDetails.subHeading}
-          description={projectsDetails.description}
-          fromDate={projectsDetails.duration.fromDate}
-          toDate={projectsDetails.duration.toDate}
-        />
-      ))}
-    </div>,
+    // <div className="resume-screen-container" key="projects">
+    //   {projectsDetails.map((projectsDetails, index) => (
+    //     <ResumeHeading
+    //       key={index}
+    //       heading={projectsDetails.title}
+    //       subHeading={projectsDetails.subHeading}
+    //       description={projectsDetails.description}
+    //       fromDate={projectsDetails.duration.fromDate}
+    //       toDate={projectsDetails.duration.toDate}
+    //     />
+    //   ))}
+    // </div>,
 
     /* Interests */
-    <div className="resume-screen-container" key="interests">
-      <ResumeHeading
-        heading="Sports"
-        description="Like to cycling, basketball and swimming."
-      />
-      <ResumeHeading
-        heading="Hydroponics"
-        description="Build my own hydroponics system and step-by-step understanding the process."
-      />
-      <ResumeHeading
-        heading="Investment"
-        description="Started to invest in farming area include ducks and sheep also interest in stock market investment"
-      />
-    </div>,
+    // <div className="resume-screen-container" key="interests">
+    //   <ResumeHeading
+    //     heading="Sports"
+    //     description="Like to cycling, basketball and swimming."
+    //   />
+    //   <ResumeHeading
+    //     heading="Hydroponics"
+    //     description="Build my own hydroponics system and step-by-step understanding the process."
+    //   />
+    //   <ResumeHeading
+    //     heading="Investment"
+    //     description="Started to invest in farming area include ducks and sheep also interest in stock market investment"
+    //   />
+    // </div>,
   ];
 
   const handleCarousal = (index) => {

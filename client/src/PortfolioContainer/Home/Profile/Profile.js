@@ -10,11 +10,11 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="https://medium.com/@rwsoeriawinata">
-                <i className="fa fa-medium"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/raditiasoeriawinata-25434842/">
+              <a href="https://www.facebook.com/vladdanielzaharia/">
                 <i className="fa fa-linkedin"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/vladdanielzaharia/">
+                <i className="fa fa-facebook"></i>
               </a>
             </div>
           </div>
@@ -57,9 +57,9 @@ export default function Profile() {
               {" "}
               Haide sa vorbim!{" "}
             </button>
-            <a href="My_CV_2_0.pdf" download="My Portfolio.pdf">
+            {/* <a href="My_CV_2_0.pdf" download="My Portfolio.pdf">
               <button className="btn highlighted-btn">Get Portfolio</button>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="profile-picture">
