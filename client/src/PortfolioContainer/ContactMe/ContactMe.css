@@ -1,5 +1,5 @@
 .main-container {
-  min-height: 100vh;
+  min-height: 65vh;
   /* background-image: url("../../assets/ContactMe/contact_us.jpeg"); */
 
   margin: 100px 0 -450px 0;
@@ -14,7 +14,7 @@
 }
 
 .central-form {
-  max-width: 1100px;
+  max-width: 650px;
   padding: 10px;
 
   box-shadow: 0 0px 20px -2px #1f2235;
@@ -44,7 +44,7 @@
 
 .img-back {
   display: flex;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   justify-content: center;
 }
 
@@ -172,5 +172,10 @@ button .load img {
 @media screen and (max-width: 414px) {
   .central-form h2 {
     font-size: 16px;
+  }
+
+  .central-form {
+    width: 350;
+    margin: 10px;
   }
 }

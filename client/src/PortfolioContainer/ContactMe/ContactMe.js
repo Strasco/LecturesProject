@@ -63,8 +63,8 @@ export default function Contactme(props) {
   };
 
   const contactDetails = [
-    { entry1: "Name", entry2: "Vlad Daniel Zaharia" },
-    { entry1: "Phone", entry2: "0725078292" },
+    { entry1: "Nume", entry2: "Vlad Daniel Zaharia" },
+    { entry1: "Telefon", entry2: "0725078292" },
     { entry1: "E-mail", entry2: "vlad.zaharia95@gmail.com" },
   ];
 
@@ -105,7 +105,7 @@ export default function Contactme(props) {
             {/* <img src={imgBack} alt="image is missing" /> */}
             <ul>{listDetails()}</ul>
           </div>
-          <form onSubmit={submitForm}>
+          {/* <form onSubmit={submitForm}>
             <p>{banner}</p>
             <label htmlFor="name">Name</label>
             <input type="text" onChange={handleName} value={name} />
@@ -129,7 +129,7 @@ export default function Contactme(props) {
                 )}
               </button>
             </div>
-          </form>
+          </form> */}
         </div>
       </div>
     </div>

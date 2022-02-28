@@ -130,8 +130,8 @@ const Resume = (props) => {
         <ResumeHeading
           heading={"Curs de programare pentru stapanirea bazelor programarii"}
           subHeading={"Curs Programare"}
-          fromDate={"3 luni"}
-          toDate={" 1500 RON"}
+          fromDate={"~2 luni o data pe saptamana"}
+          toDate={" 400 RON"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
